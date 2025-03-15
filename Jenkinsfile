@@ -2,7 +2,7 @@ pipeline{
 
 agent{
 
-docker{image 'alpine'} ## using lighweight container
+docker{image 'alpine'} // using lighweight container
 
 
 
