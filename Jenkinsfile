@@ -11,7 +11,7 @@ docker{image 'alpine'} ## using lighweight container
 
 stages{
 
-stage( testdemo ){
+stage( 'testdemo' ){
 
 steps {
 
