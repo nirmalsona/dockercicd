@@ -6,7 +6,7 @@ docker{
   
 image 'ubuntu' // using lighweight container
 
-args '-u root'
+
 
 }
 
