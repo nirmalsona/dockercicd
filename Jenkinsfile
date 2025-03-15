@@ -5,7 +5,7 @@ pipeline{
 
     stage ('Front-end'){
       agent{
-        docker{ 'image' node}
+        docker{ image 'node'}
       }
 
 steps{
