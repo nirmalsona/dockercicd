@@ -15,7 +15,7 @@ stage( 'testdemo' ){
 
 steps {
 
-sh 'echo "Hello From Jenkins with Docker Agent"
+sh 'echo "Hello From Jenkins with Docker Agent"'
 
 }
 
