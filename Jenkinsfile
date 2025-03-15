@@ -11,7 +11,7 @@ pipeline{
 steps{
   sh ' node --version'
 }
-
+    }
       stage ('Back-end'){
       agent{
         docker{ image 'maven'}
@@ -23,7 +23,7 @@ steps{
       }
     }
   }
-}
+
 
         
 
