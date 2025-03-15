@@ -2,7 +2,7 @@ pipeline{
 
 agent{
 
-docker{image 'alpine'} // using lighweight container
+docker{image 'ubuntu'} // using lighweight container
 
 
 
@@ -15,7 +15,7 @@ stage( 'testdemo' ){
 
 steps {
 
-sh 'echo "Hello From Jenkins with Docker Agent"'
+sh 'whoami'
 
 }
 
