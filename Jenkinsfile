@@ -2,13 +2,15 @@ pipeline{
 
 agent{
 
-docker{image 'ubuntu'} // using lighweight container
+docker{
+  
+image 'ubuntu' // using lighweight container
 
 args '-u root'
 
 }
 
-
+}
 stages{
 
 stage( 'testdemo' ){
