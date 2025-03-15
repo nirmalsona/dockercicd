@@ -18,10 +18,11 @@ steps{
       }
 
 steps{
-  sh ' maven --version'
+  sh ' mvn --version'
 }
-}
-}
+      }
+    }
+  }
 }
 
         
